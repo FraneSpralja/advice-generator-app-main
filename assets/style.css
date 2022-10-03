@@ -95,6 +95,10 @@ button.btn-random-advice {
     cursor: pointer;
 }
 
+button.btn-random-advice:hover {
+    box-shadow: 0 0 40px hsl(150, 100%, 66%);
+}
+
 @media (max-width: 750px) {
     div#App {
         width: 90%;
