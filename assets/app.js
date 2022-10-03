@@ -1,6 +1,5 @@
 const url = "https://api.adviceslip.com/advice"
 const App = document.querySelector('#App');
-const breakPoint = "(max-width: 750px)"
 
 eventListener()
 
@@ -66,8 +65,6 @@ async function getAdvice() {
     const advice = await response.json();
 
     printAdvice(advice)
-
-    return advice
 }
 
 function printAdvice(adviceObj) {
